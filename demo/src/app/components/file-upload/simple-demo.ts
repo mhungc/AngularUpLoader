@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FileUploader } from 'ng2-file-upload';
 
 // const URL = '/api/';
-const URL = 'https://evening-anchorage-3159.herokuapp.com/api/';
+const URL = 'http://localhost:51478/api/values';
 
 @Component({
   selector: 'simple-demo',

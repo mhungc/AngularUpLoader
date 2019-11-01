@@ -16,7 +16,7 @@
     "flow.github-release": "conventional-github-releaser -p angular",
     "build": "ng build ng2-file-upload",
     "build.watch": "ng build ng2-file-upload --watch",
-    "start": "ng serve ng2-file-upload-demo --aot",
+    "start": "ng serve --port 4401 ng2-file-upload-demo --aot",
     "pretest": "run-s lint build link",
     "test": "ng test ng2-file-upload-test",
     "test-coverage": "ng test ng2-file-upload-test --code-coverage",
@@ -131,6 +131,7 @@
     }
   ],
   "dependencies": {
+    "ng2-file-upload": "^1.4.0",
     "tslib": "^1.10.0"
   }
 }
